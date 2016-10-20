@@ -1,0 +1,53 @@
+db.getCollection
+
+db.students.getIndexs()
+
+db.students.dropIndexs()
+
+db.students.find({"sendInfo.notice", ""})
+
+
+・等号
+・正規表現
+
+・match検索
+・正規表現検索
+・不等号検索
+・時間の検索
+
+・入れ子の検索
+・入れ子の表示
+・必要なところだけ表示
+
+・値のアップデート
+・複数条件でのアップデート
+・入れ子のアップデート
+・nullにアップデート
+
+・削除
+・入れ子の条件で削除
+
+・インデックスの表示
+・インデックスの削除
+・カウント
+・
+
+update multi true
+update false true
+update pop
+update addToSet
+update push
+
+
+## 表示
+成績の部分だけを表示する(idは表示しない)
+
+
+## 検索
+lastNameがSuzukiの人を表示する
+
+heightが150以上の人を取り出す
+
+mathが50以上の人を取り出す
+
+## アップデート
